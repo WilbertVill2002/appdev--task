@@ -4,10 +4,10 @@ def number_guessing_game():
     print("=" * 40)
     print("  Welcome to the Number Guessing Game!  ")
     print("=" * 40)
-    print("I'm thinking of a number between 1 and 10.")
+    print("I'm thinking of a number between 1 and 100.")
     
     # Generate a random integer between 1 and 10
-    secret_number = random.randint(1, 10)
+    secret_number = random.randint(1, 100)
     attempts = 0
 
     while True:
